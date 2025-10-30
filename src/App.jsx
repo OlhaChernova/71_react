@@ -1,11 +1,15 @@
-import "./App.css";
+// import "./App.css";
+import Lesson02 from "./lessons/Lesson02/Lesson02";
 
-function App() { 
+function App() {
   return (
-    <div className="app">
-      <p>My first react app</p>
-    </div>
+    <>
+      {/* <div className="button-container">
+        <Button />
+      </div> */}
+      <Lesson02 />
+    </>
   );
 }
 
-export default App
+export default App;
