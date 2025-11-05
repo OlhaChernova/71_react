@@ -13,7 +13,7 @@ function Homework03() {
           placeholder="Enter your email"
           type="email"
           />
-        <Button name="Send email" type="submit" />
+        <Button name="Send email" type="submit" variant="blue" />
       </form>
     </div>
   );

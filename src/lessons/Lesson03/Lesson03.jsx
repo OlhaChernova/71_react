@@ -9,12 +9,12 @@ function Lesson03() {
     <div className="lesson03-wrapper">
       <StudyCard lessonData={lessonData[0]} />
       <StudyCard lessonData={lessonData[1]} />
-      <Button name="Send" type="submit" />
-      <Button name="Get" type="button" />
+      {/* <Button name="Send" type="submit" />
+      <Button name="Get" type="button" /> */}
       <AnimalCard
         animalName={lionData.name}
         animalSpecies={lionData.species}
-        animalImg={zebraData.image}
+        animalImg={lionData.image}
       >
         <p>Main character</p>
       </AnimalCard>

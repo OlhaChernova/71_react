@@ -8,7 +8,7 @@ function StudyCard({lessonData}) {
       <p>{lessonData.topic}</p>
       <p>{lessonData.name}</p>
       <img src={lessonData.imgSrc}/>
-      <Button name="view" type="button"/>
+      <Button name="view" type="button" variant="purple"/>
     </div>
   );
 }
