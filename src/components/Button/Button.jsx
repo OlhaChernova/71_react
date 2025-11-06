@@ -1,8 +1,8 @@
 import "./styles.css";
 
-function Button({ type = "button", name, variant = "blue" }) {
+function Button({ type = "button", name, onClick, variant = "blue" }) {
   return (
-    <button className={`button ${variant}`} type={type}>
+    <button className={`button ${variant}`} type={type} onClick={onClick}>
       {name}
     </button>
   );
