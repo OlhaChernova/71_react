@@ -12,7 +12,7 @@ function Feedback() {
   };
 
   const addDislike = () => {
-    setLikes((prevState) => prevState + 1);
+    setDislikes((prevState) => prevState + 1);
   };
 
   const resetResults = () => {
